@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="ime_name">Emmozhi</string>
+    <string name="app_name">Emmozhi</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <string name="text_welcome">வணக்கம்! இது ஆண்ட்ராய்டு இயங்குதளத்திற்கான தமிழ் விசைப் பலகை.</string>
+    <string name="text_Header">தமிழ்விசை</string>
+    <string name="text_enable_visai">தமிழ்விசை செயல்படுத்த</string>
+    <string name="thamizha_txt">தமிழா!</string>
+    <string name="keyboard_layout_menu_header">Settings</string>
+    <string name="T99">தமிழ்99</string>
+    <string name="phonetic">உச்சரிப்பு - தமிழ் விசைகள்</string>
+    <string name="phonetic_eng">உச்சரிப்பு - ஆங்கில விசைகள்</string>
+    <string name="link">www.emmozhi.org</string>
+    <string name="eng">ஆங்கிலம்</string>
+    <string name="input_method">input method</string>
+    <string name="thamizha_url">http://www.thamizha.com</string>
+    <string name="text_help_step_1"> * ஒரு டெக்ஸ்ட்பாக்ஸில்நீண்ட நேரம் அழுத்தவும்</string>
+    <string name="text_help_step_2"> * உள்ளீட்டு முறை தேர்வு செய்யுங்கள்</string>
+    <string name="text_help_step_3"> * TamilVisai தேர்ந்தெடுக்கவும்.</string>
+    <string name="emmozhi_welcome_text">எம்மொழி பதிவிறக்கம் செய்ததற்கு நன்றி</string>
+<string name="emmozhi_help_text1">மொழியை தேர்வு செய்ய</string>
+<string name="emmozhi_help_text2">எம்மொழி விசைப்பலகையை பயன்படுத்த</string>
+<string name="emmozhi_help_text3">உரைப்பெட்டியை சில வினாடிகள் அழுத்தவும்</string>
+<string name="emmozhi_help_text4">மொழி மாற்றம் செய்ய</string>
+<string name="emmozhi_help_text5">இடது மேல் மூலையில் உள்ள எம்மொழி ஐகானை அழுத்தவும்</string>
+</resources>

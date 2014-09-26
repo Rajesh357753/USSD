@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+    android:background="@drawable/screen_image" >
+    
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:orientation="vertical"
+       	android:layout_gravity="center"
+        >
+        <TextView 
+            android:id="@+id/emmozhi_Welcometext_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+          android:textColor="#000000"
+            
+            />
+        
+        </LinearLayout>
+       <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_marginTop="30dp"           
+            >
+            <TextView 
+                android:id="@+id/Help_emmozhi_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                         />
+            <TextView 
+                android:id="@+id/Help_emmozhi_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                />
+            <TextView 
+                android:id="@+id/Help_emmozhi_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                />
+            <TextView 
+                  android:id="@+id/Help_emmozhi_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             android:textColor="#000000"
+                />
+            <TextView 
+                 android:id="@+id/Help_emmozhi_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textColor="#000000"
+                />
+        </LinearLayout> -->
+        
+        <LinearLayout  android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	     android:layout_marginTop="225dp"
+	   android:gravity="center"
+	    android:orientation="vertical" >
+            <ImageView 
+                android:id="@+id/image_button"
+                  android:layout_width="150dp"
+        android:layout_height="50dp"
+       
+         android:textStyle="bold"
+        android:background="@drawable/help_images"
+	    
+                />
+                
+          
+        </LinearLayout>
+        <LinearLayout  android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	   android:layout_marginTop="5dp"
+	   android:gravity="center"
+	    android:orientation="vertical" >
+            <ImageView 
+                android:id="@+id/video_button"
+           android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+       android:background="@drawable/help_videos"
+         android:textStyle="bold"
+	    
+                />
+                
+          
+        </LinearLayout>
+        
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+          <ImageView
+        android:id="@+id/emmozhi_button_1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        
+        android:textStyle="bold"
+      
+        android:background="@drawable/start_button"
+        android:text="Press to start" />
+          </LinearLayout>
+        <LinearLayout  android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_gravity="right">
+          
+               <LinearLayout  android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginLeft="100dp">    
+<TextView 
+    android:id="@+id/text_link"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginTop="15dp"
+    android:textColor="#000000"
+   android:text="@string/link"
+  
+    
+    />
+</LinearLayout>  
+            
+     <LinearLayout  android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="40dp">    
+<ImageView 
+    android:id="@+id/facee"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="@drawable/face"
+  
+    
+    />
+</LinearLayout> 
+  </LinearLayout>
+        <LinearLayout 
+    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	  android:layout_marginTop="2dp"
+	   android:gravity="center|bottom"
+	    android:orientation="vertical"
+    ><com.google.ads.AdView
+	    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	    android:id="@+id/adView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"		        
+	    ads:adSize="BANNER"
+	    ads:adUnitId="ca-app-pub-8389260823448885/3928595052"
+	/> 
+  </LinearLayout> 
+        
+        
+
+</LinearLayout>
