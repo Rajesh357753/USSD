@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="network.networkcodes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="network.networkcodes.NetworkListActivity"
+            android:label="@string/app_name" 
+             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|uiMode|screenLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+     <!--    <activity android:name=".MainActivity"></activity> -->
+         <activity android:name="network.networkcodes.AircelMainActivity"></activity> 
+         <activity android:name="network.networkcodes.AirtelMainActivity"></activity> 
+         <activity android:name="network.networkcodes.BsnlMainActivity"></activity> 
+         <activity android:name="network.networkcodes.DocomoMainActivity"></activity>
+         <activity android:name="network.networkcodes.IdeaMainActivity"></activity>
+         <activity android:name="network.networkcodes.RelianceMainActivity"></activity>   
+         <activity android:name="network.networkcodes.VodaphoneMainAcitivity"></activity>
+         <!-- <activity android:name=".InterstitialsAdsExampleActivity"></activity> --> 
+         <activity android:name="network.networkcodes.AircelBalance"></activity>
+         <activity android:name="network.networkcodes.AircelCustomerCare"></activity>
+         <activity android:name="network.networkcodes.AircelNumberActiivty"></activity>
+         <activity android:name="network.networkcodes.AircelLocalMobileCalls"></activity>
+         <activity android:name="network.networkcodes.AircelCheckGprs"></activity>
+         <activity android:name="network.networkcodes.AircelthreegActivity"></activity>
+         <activity android:name="network.networkcodes.AircelSwitchof"></activity>
+         <activity android:name="network.networkcodes.AircelRateCutter"></activity>
+         <activity android:name="network.networkcodes.AircelEasyRechare"></activity>
+         <activity android:name="network.networkcodes.AircelValueAddedService"></activity>
+         <activity android:name="network.networkcodes.AircelImisNoAcitivty"></activity>
+         <activity android:name="network.networkcodes.AircelFreethreeService"></activity>
+         <activity android:name="network.networkcodes.AircelBalanceTransfer"></activity>
+		 <activity android:name="network.networkcodes.AirtelCustomerCare"></activity>
+		 <activity android:name="network.networkcodes.AirtelVoucher"></activity>
+		 <activity android:name="network.networkcodes.AirtelThreeG"></activity>
+		 <activity android:name="network.networkcodes.AirtelComplaintno"></activity>	
+		 <activity android:name="network.networkcodes.AirtelBalanceCheck"></activity>
+		 <activity android:name="network.networkcodes.AirtelGiftService"></activity>
+		 <activity android:name="network.networkcodes.Airtel2gdatabalance"></activity>
+		 <activity android:name="Airtel3gdatabalance"></activity>
+		 <activity android:name="network.networkcodes.Airtel2ginternetpack"></activity>
+		 <activity android:name="network.networkcodes.AirtelRecharge123"></activity>
+         <activity android:name="AirtelMobileProtablillity"></activity>
+         <activity android:name="network.networkcodes.Airtel3gActivation"></activity>
+         <activity android:name="network.networkcodes.AirtelCallerTuneTrick"></activity>
+         <activity android:name="network.networkcodes.AirtelbalanceTransfer"></activity>
+         <activity android:name="network.networkcodes.BsnlMobileNumber"></activity>
+         <activity android:name="network.networkcodes.BsnlBalanceCheck"></activity>
+         <activity android:name="network.networkcodes.BsnlGprsdatabalance"></activity>
+         <activity android:name="network.networkcodes.BsnlSmsLocal"></activity>
+         <activity android:name="network.networkcodes.BsnlNationalSms"></activity>
+         <activity android:name="network.networkcodes.BsnlNetworkCall"></activity>
+         <activity android:name="network.networkcodes.BsnlLocalNetworkCall"></activity>
+         <activity android:name="network.networkcodes.BsnlNightGprs"></activity>
+         <activity android:name="network.networkcodes.BsnlVideoCallBack"></activity>
+         <activity android:name="network.networkcodes.BsnlFnfNumbersEnquery"></activity>
+         <activity android:name="network.networkcodes.BsnlSmsBalance"></activity>
+         <activity android:name="network.networkcodes.BsnlVoicePacksInfo"></activity>
+         <activity android:name="network.networkcodes.BsnlLastCallCharge"></activity>
+         <activity android:name="network.networkcodes.BsnlDataBalance"></activity>
+          <activity android:name="network.networkcodes.DocomoMobileNumber"></activity>
+          <activity android:name="network.networkcodes.DocomoBalance"></activity>
+          <activity android:name="network.networkcodes.DocomoInternetBalance"></activity>.
+          <activity android:name="network.networkcodes.DocomoCustomerCare"></activity>
+          <activity android:name="network.networkcodes.DocomoRecharge"></activity>
+          <activity android:name="network.networkcodes.DocomoInternetPacks"></activity>
+          <activity android:name="network.networkcodes.DocomoActivate3G"></activity>
+          <activity android:name="network.networkcodes.DocomoMoreInfo"></activity>
+            <activity android:name="network.networkcodes.IdeaCustomerCare"></activity>
+            <activity android:name="network.networkcodes.IdeaBalanceChecker"></activity>
+            <activity android:name="network.networkcodes.Idea3GActivation"></activity>  
+            <activity android:name="network.networkcodes.IdeaLiveTv"></activity>
+            <activity android:name="network.networkcodes.IdeaGprsFresh"></activity>    
+            <activity android:name="network.networkcodes.IdeaServiceNumber"></activity>
+            <activity android:name="network.networkcodes.IdeaGprsSettings"></activity>
+            <activity android:name="network.networkcodes.IdeaYourNum"></activity>
+            <activity android:name="network.networkcodes.IdeaSmsBalance"></activity>
+            <activity android:name="network.networkcodes.IdeaDndService"></activity>
+            <activity android:name="network.networkcodes.RelianceMobileNumber"></activity>
+            <activity android:name="network.networkcodes.RelianceCheckBalance"></activity>
+            <activity android:name="network.networkcodes.RelianceSpecialPacks"></activity>  
+            <activity android:name="network.networkcodes.RelianceCallerTunes"></activity>
+            <activity android:name="network.networkcodes.ReliancePacks"></activity>    
+            <activity android:name="network.networkcodes.RelianceLatestInformation"></activity>
+            <activity android:name="network.networkcodes.RelianceActivateCallerTune"></activity>
+            <activity android:name="network.networkcodes.RelianceDeactiveCallerTune"></activity>
+            <activity android:name="network.networkcodes.RelianceLocalCallBalance"></activity>
+            <activity android:name="network.networkcodes.RelianceGprsDataBalance"></activity>
+            <activity android:name="network.networkcodes.RelianceCustomerCare"></activity>
+            <activity android:name="network.networkcodes.RelianceGprsSetting"></activity>
+            <activity android:name="network.networkcodes.RelianceVoucher"></activity>
+            <activity android:name="network.networkcodes.RelianceFreeInternet"></activity>
+            <activity android:name="network.networkcodes.VodafoneCustomerCare"></activity>
+            <activity android:name="network.networkcodes.VodafoneMainBalanceCheck"></activity>
+            <activity android:name="network.networkcodes.VodafoneGprsBalanceCheck"></activity>
+            <activity android:name="network.networkcodes.Vodafone3gDatacard"></activity>
+            <activity android:name="network.networkcodes.VodafoneYourMoileNumber"></activity>
+            <activity android:name="network.networkcodes.VodafoneSmsBalance"></activity>
+            <activity android:name="network.networkcodes.VodafoneCallBalanceCheck"></activity>
+            <activity android:name="network.networkcodes.Vodafone3gActivationAct"></activity>
+            <activity android:name="network.networkcodes.VodafoneGprsbalnce"></activity>
+            <activity android:name="network.networkcodes.VodafoneNightGprsdata"></activity>
+            <activity android:name="network.networkcodes.Vodafone20mb3gplan"></activity>
+            <activity android:name="network.networkcodes.Vodafone1dayGprsPack"></activity>
+            <activity android:name="network.networkcodes.Vodafone3daysGprsPack"></activity>
+            <activity android:name="network.networkcodes.Vodafone7daysGprspack"></activity>
+            <activity android:name="network.networkcodes.Vodafone15daysGprsPack"></activity>
+            <activity android:name="network.networkcodes.Vodafone1monthgprsPack"></activity>
+            <activity android:name="network.networkcodes.Vodafone5Gb3G"></activity>
+            <activity android:name="network.networkcodes.Vodafone8Gb3g"></activity>
+            <activity android:name="network.networkcodes.VodafoneRateCutter"></activity>  
+             <activity android:name="com.google.ads.AdActivity"
+             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>        
+         </application>
+         <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>

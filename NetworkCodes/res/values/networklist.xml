@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="networklist" translatable="false">
+        <item>Aircel</item>
+        <item>Airtel</item>
+        <item>Bsnl</item>
+        <item>Docomo</item>
+        <item>Idea</item>
+        <item>Reliance</item>
+        <item>Vodafone</item>
+    </string-array>
+    <string-array name="Aircel" translatable="false">
+        <item>Customer Care</item>
+        <item>Your Aircel Number</item>
+        <item>Balance Check</item>
+        <item>Local Mobile Call Balance</item>
+        <item>Internet Setting</item>
+        <item>Check GPRS Balance </item>
+        <item>3G Activation</item>
+        <item>Switch Off</item>
+        <item>Rate Cutter </item>
+        <item>e-Recharge</item>
+        <item>Value Added Service</item>
+        <item>IMIS no</item>
+        <item>Aircel free 3G Service</item>
+        <item>Balance Transfer </item>
+    </string-array>
+    <string-array name="Airtel" translatable="false">
+        <item>Customer Care</item>
+        <item>Voucher</item>
+        <item>3G</item>
+        <item>Complaint no</item>
+        <item>Balance Check</item>
+        <item>Gift Service</item>
+        <item>Airtel 2G data balance</item>
+        <item>Airtel 3G data balance</item>
+        <item>2G internet pack</item>
+        <item>Recharge</item>
+        <item>Mobile Portability</item>
+        <item>3G Activation</item>
+        <item>Callertune Trick</item>
+        <item>Balance Transfer</item>
+    </string-array>
+    <string-array name="Bsnl" translatable="false">
+        <item>Mobile Number</item>
+        <item>Check balance</item>
+        <item>GPRS data balance</item>
+        <item>SMS local</item>
+        <item>National sms</item>
+        <item>Network call</item>
+        <item>Local network call</item>
+        <item>Night GPRS pack</item>
+        <item>Video call bal</item>
+        <item>FnF Numbers Enquiry</item>
+        <item>SMS Balance</item>
+        <item>Voice Packs Info</item>
+        <item>Last Call Charge</item>
+        <item>Data Balance</item>
+    </string-array>
+    <string-array name="Docomo" translatable="false">
+        <item>Mobile Number</item>
+        <item>Balance</item>
+        <item>Internet Balance</item>
+        <item>Customer Care</item>
+        <item>Recharge</item>
+        <item>Internet Packs</item>
+        <item>Activate 3G</item>
+        <item>More Info </item>
+    </string-array>
+    <string-array name="Idea" translatable="false">
+        <item>Customer Care</item>
+        <item>Balance Checker</item>
+        <item>3G Activation</item>
+        <item>Idea Live Tv</item>
+        <item>GPRS</item>
+        <item>Service Number</item>
+        <item>GPRS Setting</item>
+        <item>Your Idea Number</item>
+        <item>SMS Balance</item>
+        <item>DND Service</item>
+    </string-array>
+    <string-array name="Reliance" translatable="false">
+        <item>Mobile Number</item>
+        <item>Check balance</item>
+        <item>Special Packs</item>
+        <item>Caller Tunes</item>
+        <item>Packs</item>
+        <item>Latest Balance information</item>
+        <item>Activate Caller Tune</item>
+        <item>Deactivate caller tune</item>
+        <item>Local Call balance</item>
+        <item>GPRS data balance</item>
+        <item>customer care</item>
+        <item>GPRS setting</item>
+        <item>Reliance Voucher</item>
+        <item>Free Internet</item>
+    </string-array>
+    <string-array name="Vodafone" translatable="false">
+        <item>Customer Care</item>
+        <item>Main Balance Check</item>
+        <item>Gprs Balance Check</item>
+        <item>3G data card balance</item>
+        <item>Your Vodafone Number</item>
+        <item>SMS Balance</item>
+        <item>Call Balance Check</item>
+        <item>3G Activation</item>
+        <item>Gprs balance data</item>
+        <item>Night GPRS balance</item>
+        <item>20 MB 3G plan</item>
+        <item>1 day GPRS pack </item>
+        <item>3 days GPRS pack</item>
+        <item>7 days GPRS pack</item>
+        <item>15 days GPRS pack</item>
+        <item>1 month GPRS pack</item>
+        <item>5GB 1 month 3G</item>
+        <item>8GB 1 month 3G</item>
+        <item>Rate Cutter</item>
+    </string-array>
+
+</resources>
